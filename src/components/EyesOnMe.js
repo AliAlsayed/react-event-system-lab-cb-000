@@ -5,6 +5,10 @@ export default class EyesOnMe extends React.Component {
   hey = () => {
     console.log('Hey! Eyes on me!');
   }
+
+  good = () => {
+    console.log('Good!');
+  }
   render(){
     return(
       <button type="password" onKeyUp={console.log('Entering password...')}> </button>
