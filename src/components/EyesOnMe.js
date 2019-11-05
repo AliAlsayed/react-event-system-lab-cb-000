@@ -11,7 +11,7 @@ export default class EyesOnMe extends React.Component {
   }
   render(){
     return(
-      <button type="password" onKeyUp={console.log('Entering password...')}> </button>
+      <button onFocus={console.log('Entering password...')}> </button>
     )
   }
 }
